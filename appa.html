@@ -1,0 +1,423 @@
+<html>
+<head>
+<title>E-commerce website</title>
+
+<link rel="stylesheet" href="x.css">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="topbar">
+<div class="search-box">
+<i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+<i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+<img src="logo.jfif" class="logo">
+<input type="text" class="form-control">
+
+<span class="input-group-text"><i class="fa fa-search"></i> </span>
+</div>
+
+
+<div class="menu-bar">
+<ul>
+<li><a href="#"> <i class="fa fa-shopping-basket"></i>cart</a></li>
+<li><a href="#"> Sign Up</a></li>
+<li><a href="#"> Log In</a></li>
+</ul>
+
+</div>
+</div>
+<section class="header">
+<div class="side-menu" id="side-menu">
+<ul>
+    <li>On sale<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Rice</li>
+	<li>Wheat</li>
+	<li>Brown rice</li>
+	<li>Pasta</li>
+	</ul>
+	</li>
+	
+	<li>Vegetables<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Tomato</li>
+	<li>Onion</li>
+	<li>Carrot</li>
+	<li>Potato</li>
+	</ul>
+	</li>
+	
+	<li>Fruits<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Apple</li>
+	<li>Orange</li>
+	<li>Custard apple</li>
+	<li>Grapes</li>
+	</ul>
+	</li>
+	
+	<li>Grains<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Barley</li>
+	<li>Corn</li>
+	<li>Oat meal</li>
+	<li>Millet</li>
+	</li>
+	</ul>
+	
+	<li>Cool drinks<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Coco cola</li>
+	<li>Pepsi</li>
+	<li>Torino</li>
+	<li>Red bull</li>
+	</li>
+	</ul>
+	
+	<li>Chocolates<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Dairymilk</li>
+	<li>Kit Kat</li>
+	<li>Munch</li>
+	<li>Milky Bar</li>
+	</li>
+	</ul>
+	
+	<li>Snacks and Namkeens<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Lays</li>
+	<li>Kurkure</li>
+	<li>Bingo</li>
+	<li>Little hearts</li>
+	</li>
+	</ul>
+	
+	<li>Biscuits and Cookies<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Sunfeast</li>
+	<li>Parle G</li>
+	<li>Hide & seek</li>
+	<li>Britannia</li>
+	</li>
+	</ul>
+	
+	<li>Atta<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Aashir vadd Atta</li>
+	<li>Lakshmi Bhog Atta</li>
+	<li>Patanjali Atta</li>
+	<li>Shakthi Bhog Atta</li>
+	</li>
+	</ul>
+	
+	<li>Dry fruits<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Almond</li>
+	<li>Cashew nut</li>
+	<li>Dates</li>
+	<li>Fig</li>
+	</li>
+	</ul>
+	
+	<li>Oil and Ghee<i class="fa fa-angle-right"></i>
+	<ul>
+	<li>Cooking Oil</li>
+	<li>Olive oil</li>
+	<li>Milkfood ghee</li>
+	<li>Hair oil</li>
+	</li>
+	</ul>
+	
+</ul>
+</div>
+
+
+<div class="slider">
+
+<div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+  
+    <div class="carousel-item active">
+	<img src="sri.jpg" class="d-block w-100">
+    </div>
+	
+	<div class="carousel-item">
+	<img src="veg.jpeg" class="d-block w-100">
+	</div>
+	
+    <div class="carousel-item">
+     <img src="drink.png" class="d-block w-100">
+    </div>
+		<div class="carousel-item">
+			<img src="grain.jpeg" class="d-block w-100">
+		</div>
+  </div><span class="demo3" style="color:"orange"><marquee><h1><b>WELCOME TO NIVASBASKET</b></h1></marquee></span>
+  
+  <ol class="carousel-indicators">
+    <li data-target="#slider" data-slide-to="0" class="active"></li>
+    <li data-target="#slider" data-slide-to="1"></li>
+    <li data-target="#slider" data-slide-to="2"></li>
+	<li data-target="#slider" data-slide-to="3"></li>
+  </ol>
+ </div>
+</div>
+</section>
+   
+<section class="featured-categories">
+ <div class="container">
+ <div class="row">
+	<div class="col-md-4">
+	<img src="tomato.jfif">
+	<div class="product-bottom text-center">
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star-half-o"></i>
+ <i class="fa fa-star-half-o"></i>
+ <h3>tomato<h3>
+ <h5>55rs perkg</h5></div></div>
+ 
+	<div class="col-md-4">
+	<img src="o.jfif">
+	<div class="product-bottom text-center">
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <h3>Onion<h3>
+ <h5>25rs perkg</h5></div> </div> 
+ 
+ 
+	<div class="col-md-4">
+	<img src="c.jfif">
+	<div class="product-bottom text-center">
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star-half-o"></i>
+ <h3>carrot<h3>
+ <h5>35rs perkg</h5></div></div>
+ 
+	
+	
+ </div>
+ </div>
+</section>
+			<!--------onsale products----->
+ <section class="onsale">
+ <div class="container">
+    <div class="title-box">
+	<h2> Rice and grains </h2>
+	</div>
+	
+	 <div class="row">
+	<div class="col-md-3">
+	<div class="product-top">
+	<img src="rice.jfif">
+	 <div class="overlay-right">
+	 <button type="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i>
+	 </button>
+	 <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i>
+	 </button>
+	 <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i>
+	 </button>
+	</div>
+ </div>
+ <div class="product-bottom text-center">
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star-half-o"></i>
+ <h3>Rice<h3>
+ <h5>55rs perkg</h5>
+ 
+ </div> 
+
+  
+ </div>
+ <div class="col-md-3">
+	<div class="product-top">
+	<img src="wheat.jfif">
+	 <div class="overlay-right">
+	 <button type="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i>
+	 </button>
+	 <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i>
+	 </button>
+	 <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i>
+	 </button>
+	</div>
+ </div>
+ <div class="product-bottom text-center">
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star-half-o"></i>
+ <h3>Wheat<h3>
+ <h5>50rs perkg</h5>
+ 
+ </div> 
+ </div>
+ <div class="col-md-3">
+	<div class="product-top">
+	<img src="ceral.jfif">
+	 <div class="overlay-right">
+	 <button type="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i>
+	 </button>
+	 <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i>
+	 </button>
+	 <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i>
+	 </button>
+	</div>
+ </div>
+ <div class="product-bottom text-center">
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star-half-o"></i>
+ <h3>Ceral<h3>
+ <h5>50rs perkg</h5>
+ 
+ </div> 
+ </div>
+ </div>
+ </section>
+	<section class="Fruits">
+ <div class="container">
+    <div class="title-box">
+	<h2> Fruits</h2>
+	</div>
+	
+	 <div class="row">
+	<div class="col-md-3">
+	<div class="product-top">
+	<img src="pomi.jfif">
+	 <div class="overlay-right">
+	 <button type="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i>
+	 </button>
+	 <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i>
+	 </button>
+	 <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i>
+	 </button>
+	</div>
+ </div>
+ <div class="product-bottom text-center">
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star-half-o"></i>
+ <h3>Pomi<h3>
+ <h5>40rs</h5>
+ 
+ </div> 
+
+  
+ </div>
+ <div class="col-md-3">
+	<div class="product-top">
+	<img src="orange.jfif">
+	 <div class="overlay-right">
+	 <button type="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i>
+	 </button>
+	 <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i>
+	 </button>
+	 <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i>
+	 </button>
+	</div>
+ </div>
+ <div class="product-bottom text-center">
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star-half-o"></i>
+ <h3>Orange<h3>
+ <h5>60 rs </h5>
+ 
+ </div> 
+ </div>
+ <div class="col-md-3">
+	<div class="product-top">
+	<img src="pine.jfif">
+	 <div class="overlay-right">
+	 <button type="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i>
+	 </button>
+	 <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i>
+	 </button>
+	 <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i>
+	 </button>
+	</div>
+ </div>
+ <div class="product-bottom text-center">
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star-half-o"></i>
+ <h3>PineApple<h3>
+ <h5>40rs</h5>
+ 
+ </div> 
+ </div>
+ </div>
+ </section>
+ <div class="text">
+ <h2> WHY CHOOSE NIVASBASKET?<h2></div>
+ 
+ <section class="website-features">
+ <div class="container">
+ <div class="row">
+  <div class="col-md-3 feature-box">
+  <img src="satis2.jfif">
+  <div class="feature-text">
+  <p><b>100% Fresh and new Items</b></p>
+ </div>
+ </div>
+  <div class="col-md-3 feature-box">
+  <img src="ontime.png">
+  <div class="feature-text">
+  <p><b>On time delivery</b></p>
+ </div>
+ </div>
+ <div class="col-md-3 feature-box">
+  <img src="free.png">
+  <div class="feature-text">
+  <p><b>Get free delivery</b> order on more than price.</p>
+ </div>
+ </div>
+ 
+ </section>
+ 
+ 
+ 
+ 
+	<script>
+	function openmenu()
+	{
+	document.getElementById("side-menu").style.display="block";
+	document.getElementById("menu-btn").style.display="none";
+	document.getElementById("close-btn").style.display="block";
+	}
+	function closemenu()
+	{
+	document.getElementById("side-menu").style.display="none";
+	document.getElementById("menu-btn").style.display="block";
+	document.getElementById("close-btn").style.display="none";
+	}
+</script>
+</body>
+</html>
+
